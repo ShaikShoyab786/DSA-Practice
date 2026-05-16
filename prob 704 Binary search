@@ -18,7 +18,7 @@ class Solution:
         while (start<=end):
             mid = (start+end) // 2
 
-            if target > mid:
+            if target > nums[mid]:
                 start = mid+1
             elif target < mid:
                 end = mid-1
