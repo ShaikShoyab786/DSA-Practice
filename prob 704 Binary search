@@ -20,7 +20,7 @@ class Solution:
 
             if target > nums[mid]:
                 start = mid+1
-            elif target < mid:
+            elif target < nums[mid]:
                 end = mid-1
             else:
                 return mid
